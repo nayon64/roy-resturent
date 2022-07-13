@@ -10,6 +10,18 @@
 main{
 	width: 100%;
 }
+h6{
+	color: rgb(119, 119, 119);
+    font-size: 13px;
+}
+h2{
+	font-size: 30px;
+	color: rgb(58, 57, 57);
+}
+h4{
+	font-size: 23px;
+	color: rgb(58, 57, 57);
+}
 
 /* header-section */
 .banner{
@@ -83,7 +95,6 @@ main{
 .banner-text{
 	max-width: 700px;
 	height: 100vh;
-	/* height: calc(100vh - 80px); */
 	display: flex;
 	align-items: center;
 }
@@ -117,4 +128,71 @@ main{
 	border: none;
     margin-left:2px ;
 	background-color: rgb(225, 32, 32);
+}
+/* about-section */
+.about-section{
+	width: 100%;
+}
+.about{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.about-text{
+	max-width: 420px;
+}
+.about-img{
+	max-width:420px;
+}
+.about-img img{
+	width: 100%;
+}
+.about-text h2{
+	margin: 20px 0;
+}
+.about-text p{
+	font-size: 14px;
+	color: rgb(119, 119, 119);
+}
+.about-text p:last-child{
+	margin-top: 15px;
+}
+
+/* chefs section */
+
+.chef-section{
+	background-color: rgb(249, 245, 245);
+
+}
+.chefs{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+.chefs h2{
+	margin-top: 5%;
+}
+.chefs h6{
+	margin-top: 10px;
+}
+.chefs-cards{
+	margin-top: 2%;
+	display: flex;
+	justify-content:space-around;
+	flex-wrap: wrap;
+	margin-bottom: 50px;
+}
+.card{
+	margin-top: 20px;
+	width: 300px;
+}
+.card-img img{
+	width: 100%;
+}
+.card h4{
+	margin-top: 25px;
+	margin-bottom: 10px;
 }
