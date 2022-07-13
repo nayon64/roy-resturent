@@ -23,6 +23,10 @@ h2{
 	font-size: 30px;
 	color: rgb(58, 57, 57);
 }
+h3{
+	color: rgb(71, 71, 71);
+	margin-bottom: 8px;
+}
 h4{
 	font-size: 23px;
 	color: rgb(58, 57, 57);
@@ -226,4 +230,165 @@ h4{
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+}
+
+
+/* contact-section */
+
+.map{
+	width: 480px;
+}
+.map img{
+	width: 100%;
+}
+.contact-area{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-bottom: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+/* contact-form-section */
+.contact-form{
+	max-width: 500px;
+	overflow: hidden;
+}
+.contact-form .form-area {
+	width: 100%;
+}
+.contact-form input{
+	outline: none;
+	padding: 10px 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: none;
+	border-bottom: 1px solid gray;
+}
+
+.form-area > div{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.contact-form h2{
+	margin-bottom: 15px;
+}
+.name{
+	width: 45%;
+}
+.email {
+	width: 45%;
+}
+.subject{
+	width: 98%;
+}
+.contact-form textarea{
+	width: 90%;
+	height: 80px;
+	border: none;
+	margin-top: 10px;
+	padding: 10px;
+	border-bottom: 1px solid gray;
+	outline: none;
+}
+.message-btn{
+	border: none;
+	background-color: #e12020;
+	margin-top: 10px;
+	width: 100%;
+	padding: 15px ;
+	cursor: pointer;
+	transition: .5s;
+}
+.message-btn:hover{
+	background-color: rgb(12, 12, 12)
+}
+.message-btn a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+/* footer-section */
+
+footer{
+	width: 100%;
+	border-top: 1px solid gray;
+}
+.footer-area{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 8%;
+	margin-bottom: 8%;
+}
+.find-us,.reserv{
+	max-width: 220px;
+	margin-top: 15px;
+}
+.find-us,
+.reserv>p{
+	color: rgb(182, 182, 182);
+}
+.office-time{
+	color: #fff;
+	width: 270px;
+	margin-top: 15px;
+	background-image: url(images/footer-open-hour-bg.jpg);
+	border-radius: 15px;
+}
+.office-time>div{
+	background-color: rgba(41, 41, 41, 0.8);
+	padding: 30px 60px;
+	border-radius: 15px;
+}
+.office-time>div h5{
+	margin-top: 11px;
+	margin-bottom: 3px;
+	font-size: 16px;
+	color: #fff;
+}
+.office-time>div h3{
+	color: rgb(238, 237, 237);
+}
+.office-time>div p{
+	font-size: 14px;
+	color: rgb(209, 206, 206);
+}
+.closed{
+	margin-top: 15px;
+}
+.social-media{
+	width: 170px;
+	margin-top: 15px;
+}
+.social-media-icon{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.social-media-icon>div{
+	border-radius: 100%;
+	transition: .5s;
+}
+.social-media-icon>div a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+.social-media-icon>div:hover{
+	background-color: #e12020;
+}
+
+.social-media-icon img{
+	width: 15px;
+}
+.social-media p{
+	font-size: 15px;
+	margin-top: 20px;
+	color: rgb(159, 159, 159);
 }
